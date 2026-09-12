@@ -4,8 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        console.WriteLine("Enter you name:");
+        Console.WriteLine("Enter you name:");
         string? name = Console.Readline();
-        console.WriteLine($"Hello, {name}");
+        Console.WriteLine($"Hello, {name}");
+        Console.WriteLine("How are you?");
     }
 }
